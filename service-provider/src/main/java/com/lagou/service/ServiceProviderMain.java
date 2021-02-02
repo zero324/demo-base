@@ -13,10 +13,10 @@ public class ServiceProviderMain {
     public static void main(String[] args) throws IOException {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(ServiceProviderConfigration.class);
         applicationContext.start();
-        //System.in.read();
-        while(true){
+        System.in.read();
+     /*   while(true){
 
-        }
+        }*/
     }
     @Configuration
     @EnableDubbo(scanBasePackages="com.lagou.service.impl")
