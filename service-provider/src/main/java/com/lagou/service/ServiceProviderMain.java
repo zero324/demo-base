@@ -26,7 +26,7 @@ public class ServiceProviderMain {
         public RegistryConfig registryConfig(){
             RegistryConfig registryConfig = new RegistryConfig();
 
-            registryConfig.setAddress("zookeeper://192.168.100.129:2181?timeout=10000");
+            registryConfig.setAddress("zookeeper://192.168.230.130:2181?timeout=10000");
             return registryConfig;
         }
     }
